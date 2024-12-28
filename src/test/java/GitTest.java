@@ -9,6 +9,6 @@ public class GitTest {
     void gitTestSuccessful() {
         open("https://www.google.com/");
         $("[name=q]").setValue("selenide").pressEnter();
-        $("[id=search]").shouldHave(text("com.selenide.org"));
+        $("[id=search]").shouldHave(text("ru.selenide.org"));
     }
 }
